@@ -1,0 +1,821 @@
+.footer {
+    position: fixed;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    z-index: 10;
+ }
+
+
+header {
+    background: #ffffff;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: -10px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+
+h1 {
+    font-family: serif;
+    color: white;
+    margin-left: 150px;
+    background-color: #4aaaa5;
+    height: 43px;
+    padding: 18px;
+    position: relative;
+    bottom: 20px;
+    left: -127px
+    
+}
+
+h2 {
+    position: relative;
+    left: 35px;
+    color: #4aaaa5;
+    font-size: 40px;
+    margin: 10px;
+    top: -75px;
+
+
+}
+
+.whitebox {
+    height: 60px;
+    width: 940px;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    position: relative;
+    left: 4px;
+}
+
+
+section {
+    width: 960px;
+    text-align: center;
+    position: relative;
+    top: -81px;
+    left: 25px;
+    background-color: white;
+    }
+
+p {
+    padding: 10px;
+    font-family: sans-serif;
+    line-height: 35px;
+
+}
+
+#img1 { 
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 12px;
+    border: 2px solid black;
+    
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    padding-top: 30px;
+    
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    }
+
+nav li {
+    display: inline-block;
+    margin-left: 35px;
+    padding-right: 20px;
+    position: relative;
+    left: -105px; 
+}
+
+h1 {
+    display: inline-block;
+}
+
+.portimages {
+    background-color: white;
+    width: 960px;
+    height: 740px;
+    position: relative;
+    left: 25px;
+    top: -75px;
+}
+
+#ants {
+    float: left;
+    margin-left: 30px;
+}
+
+#antgametext {
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 190px;
+    left: -350px;
+}
+
+#baseball {
+    float: left;
+    margin: 40px;
+    position: relative;
+    top: -89px;
+}
+#baseballtext {
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 140px;
+    left: -110px; 
+    z-index: 1
+}
+
+#burger {
+    position: relative;
+    right: 605px;
+    top: 130px;
+}
+
+#burgertext {
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    z-index: 1;
+    position: relative;
+    top: 320px;
+    left: -350px;
+    }
+
+#city {
+    position: relative;
+    bottom: 124px; 
+    right: 110px;
+}
+
+#citytext {
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    z-index: 10;
+    position: relative;
+    top: 65px;
+    right: 110px;
+}
+
+#colors {
+    position: relative;
+    bottom: 145px;
+    right: 350px;
+}
+#colorstext {
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    z-index: 1;
+    position: relative;
+    right: 350px;
+    top: 43px;
+}
+
+#surf{
+    position: relative;
+    top: -400px;
+    right: 110px;
+}
+
+#surftext {
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    z-index: 1;
+    position: relative;
+    bottom: 215px;
+    left: -110px;
+}
+
+
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #4aaaa5;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+
+.container {
+    margin-left: 150px;
+    width: 920px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: absolute;
+    top: 194px;
+    
+}
+.footerbox {
+    
+    width: 100%;
+    background-color: #4aaaa5;
+    position: fixed;
+    z-index: 5;
+    height: 6px;
+    bottom: 57px;
+    
+}
+#footer { 
+    padding: 0px;
+}
+
+
+@media only screen and (max-width: 980px) {
+    .whitebox {
+        height: 60px;
+        width: 500px;
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+        border-bottom-style: solid;
+        border-bottom-color: grey;
+        position: relative;
+        left: 5px;
+    
+}
+
+section {
+    width: 644px;
+    text-align: center;
+    position: relative;
+    top: -82px;
+    left: 21px;
+    background-color: white;
+}
+
+.whitebox {
+    height: 60px;
+    width: 622px;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    position: relative;
+    left: 1px;
+}
+
+p {
+    line-height: 30px;
+}
+
+h1 {
+    font-family: serif;
+    color: white;
+    margin-left: 150px;
+    background-color: #4aaaa5;
+    height: 43px;
+    padding: 18px;
+    position: relative;
+    bottom: 20px;
+    left: -125px;
+}
+
+h2 {
+    position: relative;
+    left: 26px;
+    color: #4aaaa5;
+    font-size: 40px;
+    margin: 10px;
+    top: -75px;
+}
+nav li {
+    display: inline-block;
+    margin-left: 35px;
+    padding-right: 20px;
+    position: relative;
+    left: 2px;
+}
+.portimages {
+    background-color: white;
+    width: 644px;
+    height: 1000px;
+    position: relative;
+    left: 23px;
+    top: -76px;
+
+
+}
+
+#baseball {
+    float: left;
+    margin: 40px;
+    position: relative;
+    top: -317px;
+    width: 275px;
+    left: 297px
+}
+
+#baseballtext {
+    width: 275px;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 217px;
+    left: 152px;
+    z-index: 1;
+}
+#city {
+    width: 275px;
+    position: relative;
+    left: -330px;
+    top: -117px;
+}
+
+#citytext {
+    width: 275px;
+    background-color: #4aaaa5;
+    z-index: 10;
+    position: relative;
+    top: 151px;
+    right: 153px;
+}
+
+#colors {
+    width: 275px;
+    position: relative;
+    bottom: 137px;
+    right: 153px;
+
+}
+#colorstext {
+    width: 275px;
+    background-color: #4aaaa5;
+    z-index: 1;
+    position: relative;
+    right: 153px;
+    top: 129px;
+
+}
+
+#burger {
+    width: 275px;
+    position: relative;
+    left: -25px;
+    top: 211px; 
+
+}
+
+#burgertext {
+    width: 275px;
+    background-color: #4aaaa5;
+    z-index: 1;
+    position: relative;
+    top: 480px;
+    left: 152px;
+}
+
+#surf {
+    width: 275px;
+    
+    position: relative;
+    top: -466px;
+    right: -152px;    
+}
+
+#surftext {
+    width: 275px;
+    background-color: #4aaaa5;
+    z-index: 1;
+    position: relative;
+    bottom: 200px;
+    left: 152px;
+}
+
+#ants {
+    width: 275px;
+    position: relative;
+    top: -1px;
+
+
+}
+
+#antgametext {
+    width: 275px;
+    position: relative;
+    z-index: 1;
+    top: 268px;
+    left: -155px;
+}
+
+}
+.container {
+    margin-left: 150px;
+    width: 602px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: absolute;
+    top: 194px;
+    left: -117px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+.whitebox {
+
+    width: 698px;
+    position: absolute;
+    left: 0px;
+    
+
+} 
+
+
+section {
+    width: 718px;
+    position: absolute;
+    left: 10px;
+    top: 185px;
+    margin: 10px;
+}
+
+h2 {
+    position: absolute;
+    left: 35px;
+    top: 123px;
+}
+
+#img1 {
+    width: 295px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+
+.portimages {
+    position: absolute;
+    top: 195px;
+    left: 19px;
+    width: 718px;
+    height: 1110px;
+}
+
+#ants {
+    position: relative;
+    left: 3px;
+    top: -21px;
+    width: 315px;
+}
+
+#antgametext {
+    height: 50px;
+    width: 315px;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 264px;
+    left: -169px;
+    z-index: 1;
+}
+
+#baseball {
+    position: relative;
+    width: 315px;
+    top: -376px;
+    left: 342px;
+
+}
+
+#baseballtext {
+    height: 50px;
+    width: 315px;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 214px;
+    left: 180px;
+    z-index: 1;
+}
+
+#city {
+    position: relative;
+    bottom: 140px;
+    left: -366px;
+    width: 315px;
+}
+
+#citytext {
+    height: 50px;
+    width: 315px;
+    background-color: #4aaaa5;
+    z-index: 10;
+    position: relative;
+    top: 160px;
+    right: 169px;
+}
+#colors {
+    width: 315px;
+    position: relative;
+    bottom: 485px;
+    right: -179px;
+}
+#colorstext {
+    height: 50px;
+    width: 315px;
+    background-color: #4aaaa5;
+    z-index: 1;
+    position: relative;
+    right: -179px;
+    top: -207px;
+}
+
+#burger {
+    position: relative;
+    left: -14px;
+    top: 627px;
+    width: 315px;
+
+} 
+#burgertext {
+    height: 50px;
+    width: 315px;
+    background-color: #4aaaa5;
+    z-index: 1;
+    position: relative;
+    top: 903px;
+    left: 183px;
+}  
+#surf {
+    width: 315px;
+    position: relative;
+    top: -481px;
+    right: 169px;
+}
+
+#surftext {
+    height: 50px;
+    width: 315px;
+    background-color: #4aaaa5;
+    z-index: 1;
+    position: relative;
+    bottom: 204px;
+    left: -168px;
+}
+
+.container {
+    width: 679px;
+    position: absolute;
+    top: 194px;
+    left: -131px;
+}
+
+nav {
+    display: inline-block;
+    
+    padding-top: 30px;
+    
+}
+.logo {
+    position: absolute;
+    left: -130px;
+    top: -20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    }
+
+nav li {
+    display: inline-block;
+    margin-left: 35px;
+    padding-right: 20px;
+    position: relative;
+    left: -25px; }
+} 
+
+
+
+@media only screen and (max-width: 640px) {
+
+    .logo {
+            
+            width: 100%;
+            height: 43px;
+            text-align: center;
+            position: absolute;
+            left: -174px;
+        }
+    
+    
+    nav {
+        position: absolute;
+        top: 84px;
+        padding-bottom: 20px;
+        background: white;
+        width: 640px;
+        text-align: center;  
+       
+    }
+    
+    
+    
+    .whitebox {
+        background-color: white;
+        margin-top: 15px;
+        max-width: 560px;
+        position: absolute;
+        left: 11px;
+        top: 167px;
+        
+    }  
+    
+    
+    section {
+        width: 576px;
+        position: absolute;
+        left: 23px;
+        top: 255px;
+        margin: 10px;
+    }
+    
+    h2 {
+        position: absolute;
+        top: 184px;
+        left: 30px;
+    }
+    
+    #img1 {
+        width: 555px;
+        height: 400px;
+        margin-left: 10px;
+    }
+    
+    
+    .portimages {
+        width: 576px;
+        height: 2350px;
+        position: absolute;
+        top: 265px;
+        left: 34px;
+
+        
+    }
+    
+    #antgametext {
+        height: 70px;
+        width: 500px;
+        background-color: #4aaaa5;
+        position: relative;
+        top: 293px;
+        left: 1px;
+        z-index: 1;
+    }
+
+    #ants {
+        width: 500px;
+        height: 350px;
+        position: absolute;
+        left: 9px;
+        top: 36px;
+    }
+
+    #citytext {
+        height: 70px;
+        width: 500px;
+        background-color: #4aaaa5;
+        position: relative;
+        top: 109px;
+        left: 0px;    
+    }
+
+    #city {
+        width: 500px;
+        height: 350px;
+        position: absolute;
+        left: 38px;
+        top: 408px;
+    }
+
+    #baseball {
+        width: 500px;
+        height: 350px;
+        position: absolute;
+        top: 740px;
+        left: -2px;
+    }
+    
+    #baseballtext {
+        height: 70px;
+        width: 500px;
+        background-color: #4aaaa5;
+        position: relative;
+        top: 971px;
+        left: 0px;
+
+    }
+
+    #colors {
+        height: 350px;
+        width: 500px;
+        position: relative;
+        top: 468px;
+        left: 0px;
+    }
+    #colorstext{
+        height: 70px;
+        width: 500px;
+        background-color: #4aaaa5;
+        position: relative;
+        top: 795px;
+        right: 0px;
+    }
+
+    #burgertext {
+        height: 70px;
+        width: 500px;
+        background-color: #4aaaa5;
+        position: relative;
+        top: 1666px;
+        left: 0px;
+    }
+
+    #burger {
+        height: 350px;
+        width: 500px;
+        position: relative;
+        top: 1335px;
+        left: 0px;
+    }
+
+    #surftext {
+        height: 70px;
+        width: 500px;
+        background-color: #4aaaa5;
+        position: relative;
+        top: 1136px;
+        left: 0px;
+
+    }
+    #surf {
+        height: 350px;
+        width: 500px;
+        position: relative;
+        top: 807px;
+        left: 0px;
+    }
+    .container {
+        width: 545px;
+        position: absolute;
+        top: 266px;
+        left: -120px;
+    
+    }
+    
+}

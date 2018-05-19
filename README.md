@@ -1,2 +1,1 @@
-# responsive-portfolio1
-homework
+# basic-portfolio
